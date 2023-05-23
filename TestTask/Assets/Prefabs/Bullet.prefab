@@ -130,7 +130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 40
   _lifeTime: 4
-  damageDealer: {fileID: 8234931123851630343}
+  _damageDealer: {fileID: 8234931123851630343}
 --- !u!114 &8234931123851630343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,4 +143,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 206934358848bd94d9df352d4a295128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  _damage: 10
