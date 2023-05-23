@@ -8,6 +8,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 463404013697157892, guid: 7ed94bb2c4b759f4ea7656762ad02c5b, type: 3}
+      propertyPath: _healthValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 463404013697157892, guid: 7ed94bb2c4b759f4ea7656762ad02c5b, type: 3}
       propertyPath: _maxHealthValue
       value: 10
       objectReference: {fileID: 0}
@@ -82,4 +86,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a0d8a86dfa01ee47b794086c3325117, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialType: 2
+  _materialType: 2
