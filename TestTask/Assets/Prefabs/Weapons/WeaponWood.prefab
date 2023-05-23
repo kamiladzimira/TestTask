@@ -53,7 +53,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2985120290268436534, guid: 35b52cfa831599d4692b53c71f32c248, type: 3}
       propertyPath: m_Name
-      value: WoodWeapon
+      value: WeaponWood
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056835534103609436, guid: 35b52cfa831599d4692b53c71f32c248, type: 3}
+      propertyPath: _damage
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7723823249551457496, guid: 35b52cfa831599d4692b53c71f32c248, type: 3}
       propertyPath: m_Materials.Array.data[0]
