@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class DamageDealer : MonoBehaviour
 {
-    [SerializeField] private int _damage;
     private MaterialType _materialType;
     private Obstacle _obstacle;
+    private int _damage;
 
-    public void Setup(MaterialType materialType)
+    public void Setup(MaterialType materialType, int damage)
     {
-        this._materialType = materialType;
+        _materialType = materialType;
+        _damage = damage;
     }
 
     private void OnTriggerEnter(Collider collision)
@@ -26,6 +27,5 @@ public class DamageDealer : MonoBehaviour
             healthController.GetDamage(_damage);
         }
         Destroy(gameObject);
-        return;
     }
 }
