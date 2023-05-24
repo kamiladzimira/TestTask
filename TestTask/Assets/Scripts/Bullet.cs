@@ -10,9 +10,9 @@ public class Bullet : MonoBehaviour
 
     private float _timer = 0;
 
-    public void Setup(MaterialType materialType, int damage)
+    public void Setup(int damage, IReadOnlyList<MaterialData> effectiveAgainst)
     {
-        _damageDealer.Setup(materialType, damage);
+        _damageDealer.Setup(damage, effectiveAgainst);
     }
 
     private void Update()

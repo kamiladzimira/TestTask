@@ -4,25 +4,34 @@ using UnityEngine;
 
 public class DamageDealer : MonoBehaviour
 {
-    private MaterialType _materialType;
-    private Obstacle _obstacle;
+    private IReadOnlyList<MaterialData> _effectiveAgainst;
+    private DamageReceiver _obstacle;
     private int _damage;
 
-    public void Setup(MaterialType materialType, int damage)
+    public void Setup(int damage, IReadOnlyList<MaterialData> effectiveAgainst)
     {
-        _materialType = materialType;
         _damage = damage;
+        _effectiveAgainst = effectiveAgainst;
     }
 
     private void OnTriggerEnter(Collider collision)
     {
         HealthController healthController = collision.GetComponent<HealthController>();
-        _obstacle = collision.GetComponent<Obstacle>();
+        _obstacle = collision.GetComponent<DamageReceiver>();
         if (healthController == null)
         {
             return;
         }
-        if (_materialType == _obstacle.MaterialType)
+        bool canDealDamage = false;
+        foreach (MaterialData materialData in _effectiveAgainst)
+        {
+            if (materialData.Type == _obstacle.MaterialData.Type)
+            {
+                canDealDamage = true;
+                break;
+            }
+        }
+        if (canDealDamage)
         {
             healthController.GetDamage(_damage);
         }
