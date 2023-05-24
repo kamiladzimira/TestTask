@@ -5,7 +5,7 @@ using UnityEngine;
 public class DamageDealer : MonoBehaviour
 {
     private IReadOnlyList<MaterialData> _effectiveAgainst;
-    private DamageReceiver _obstacle;
+    private DamageReceiver _damageReceiver;
     private int _damage;
 
     public void Setup(int damage, IReadOnlyList<MaterialData> effectiveAgainst)
@@ -17,7 +17,7 @@ public class DamageDealer : MonoBehaviour
     private void OnTriggerEnter(Collider collision)
     {
         HealthController healthController = collision.GetComponent<HealthController>();
-        _obstacle = collision.GetComponent<DamageReceiver>();
+        _damageReceiver = collision.GetComponent<DamageReceiver>();
         if (healthController == null)
         {
             return;
@@ -25,7 +25,7 @@ public class DamageDealer : MonoBehaviour
         bool canDealDamage = false;
         foreach (MaterialData materialData in _effectiveAgainst)
         {
-            if (materialData.Type == _obstacle.MaterialData.Type)
+            if (materialData.Type == _damageReceiver.MaterialData.Type)
             {
                 canDealDamage = true;
                 break;
