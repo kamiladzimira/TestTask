@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb615d3a671cf0e46a3d84f22c51d6f7, type: 3}
   m_Name: PaperWeaponData
   m_EditorClassIdentifier: 
-  _name: Wood weapon type
+  _name: Paper weapon type
   _damage: 5
   _effectiveAgainst:
   - {fileID: 11400000, guid: 5ea84d15679d5484d8d6c78e512ff290, type: 2}
