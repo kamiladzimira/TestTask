@@ -1,11 +1,11 @@
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class Weapon : MonoBehaviour
 {
     [SerializeField] private Bullet _bullet;
     [SerializeField] private WeaponData _weaponData;
+
+    public WeaponData WeaponData => _weaponData;
 
     public void OnFire()
     {
