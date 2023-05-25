@@ -51,7 +51,7 @@ public class Inventory : MonoBehaviour
     {
         if (context.performed)
         {
-            _weapons[_currentWeaponIndex].OnFire();
+            _weapons[_currentWeaponIndex].OnShoot();
         }
     }
 }
