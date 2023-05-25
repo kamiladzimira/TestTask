@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 463404013697157892, guid: 7ed94bb2c4b759f4ea7656762ad02c5b, type: 3}
       propertyPath: _healthValue
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 463404013697157892, guid: 7ed94bb2c4b759f4ea7656762ad02c5b, type: 3}
       propertyPath: _maxHealthValue
@@ -25,7 +25,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: d5983e097da9df6448d4d61bf4fa49ea, type: 2}
     - target: {fileID: 2601306612053969031, guid: 7ed94bb2c4b759f4ea7656762ad02c5b, type: 3}
       propertyPath: m_Name
-      value: ObstaclePaper
+      value: PaperDamageReceiver
       objectReference: {fileID: 0}
     - target: {fileID: 5805091027087737388, guid: 7ed94bb2c4b759f4ea7656762ad02c5b, type: 3}
       propertyPath: m_RootOrder
