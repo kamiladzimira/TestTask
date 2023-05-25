@@ -7,6 +7,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 480914349539647866, guid: 35b52cfa831599d4692b53c71f32c248, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 481411301107724696, guid: 35b52cfa831599d4692b53c71f32c248, type: 3}
+      propertyPath: stopAction
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 481411301107724696, guid: 35b52cfa831599d4692b53c71f32c248, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 491969308256215648, guid: 35b52cfa831599d4692b53c71f32c248, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 491972741002177800, guid: 35b52cfa831599d4692b53c71f32c248, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2985120290268436530, guid: 35b52cfa831599d4692b53c71f32c248, type: 3}
       propertyPath: m_RootOrder
       value: 0
