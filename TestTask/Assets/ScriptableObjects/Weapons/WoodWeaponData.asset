@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: WoodWeaponData
   m_EditorClassIdentifier: 
   _name: Wood weapon type
-  _damage: 20
+  _damage: 10
   _effectiveAgainst:
   - {fileID: 11400000, guid: 31661cbf088dc154980da3c6a011839b, type: 2}
   - {fileID: 11400000, guid: 5ea84d15679d5484d8d6c78e512ff290, type: 2}

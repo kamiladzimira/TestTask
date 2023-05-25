@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SteelWeaponData
   m_EditorClassIdentifier: 
   _name: Steel weapon type
-  _damage: 40
+  _damage: 15
   _effectiveAgainst:
   - {fileID: 11400000, guid: 24bbe4d1ae700ad4599046620d1b2e0e, type: 2}
   - {fileID: 11400000, guid: 31661cbf088dc154980da3c6a011839b, type: 2}
