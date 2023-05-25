@@ -18,7 +18,7 @@
                     "name": "Rotate",
                     "type": "Value",
                     "id": "b8b7e1cd-7143-4522-a4e2-2e63f92cb392",
-                    "expectedControlType": "Axis",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -178,18 +178,7 @@
                 {
                     "name": "",
                     "id": "caf1186c-d25f-4bbd-8a81-8ff213a74dcb",
-                    "path": "<Mouse>/delta/x",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Rotate",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "94faf641-4c8c-4d67-b384-81ab9184b829",
-                    "path": "<Mouse>/delta/y",
+                    "path": "<Mouse>/delta",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
