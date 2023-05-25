@@ -1,35 +1,47 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static UnityEngine.GridBrushBase;
 
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float _moveSpeed = 5f;
     [SerializeField] private float _rotationSpeed = 5f;
     [SerializeField] private Rigidbody _rb;
-    private float _movementDirection;
+    [SerializeField] Camera _camera;
+    private Vector2 _inputMovementDirection;
+    private Vector3 _movementDirection;
     private float _rotationDirection;
     public void OnMove(InputAction.CallbackContext context)
     {
-        Vector2 tmpMovementVector = context.ReadValue<Vector2>();
-        _movementDirection = tmpMovementVector.y;
-        _rotationDirection = tmpMovementVector.x;
+        _inputMovementDirection = context.ReadValue<Vector2>();
     }
 
-    private void Move()
+    public void OnRotate(InputAction.CallbackContext context)
     {
-        _rb.MovePosition(_rb.position + (transform.forward * _movementDirection * _moveSpeed * Time.fixedDeltaTime));
+        _rotationDirection = context.ReadValue<float>();
     }
 
     private void Rotate()
     {
-        transform.Rotate(transform.up, _rotationDirection * Time.fixedDeltaTime * _rotationSpeed);
+       transform.Rotate(Vector2.up * Time.deltaTime * _rotationSpeed * _rotationDirection);
+
+    }
+    private void Move()
+    {
+        _movementDirection = ((transform.forward * _inputMovementDirection.y) + (transform.right * _inputMovementDirection.x)).normalized;
+        _rb.MovePosition(_rb.position + (_movementDirection * _moveSpeed * Time.fixedDeltaTime));
+    }
+
+    private void Update()
+    {
+        Rotate();
     }
 
     private void FixedUpdate()
     {
-        Rotate();
         Move();
     }
 }
