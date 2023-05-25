@@ -331,12 +331,40 @@ PrefabInstance:
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
       propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 735877514}
     - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1307578296}
+    - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
       propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PlayHitSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ChangeObjectColor
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: ObjectColorChanger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
@@ -733,12 +761,40 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
       propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 735877514}
     - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 857415633}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
       propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PlayHitSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ChangeObjectColor
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: ObjectColorChanger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
@@ -747,6 +803,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4338665685486083237, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
   m_PrefabInstance: {fileID: 857415624}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &857415633 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5658952493147688289, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+  m_PrefabInstance: {fileID: 857415624}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e204969ab5d5f7f4eb4b0908e4f2a684, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &864709672
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -819,12 +886,40 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
       propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 735877514}
     - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 864709681}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
       propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PlayHitSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ChangeObjectColor
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: ObjectColorChanger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
@@ -833,6 +928,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4338665685486083237, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
   m_PrefabInstance: {fileID: 864709672}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &864709681 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5658952493147688289, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+  m_PrefabInstance: {fileID: 864709672}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e204969ab5d5f7f4eb4b0908e4f2a684, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &865480104
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -905,12 +1011,40 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
       propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 735877514}
     - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 865480113}
+    - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
       propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PlayHitSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ChangeObjectColor
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: ObjectColorChanger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
@@ -919,6 +1053,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4338665685486083237, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
   m_PrefabInstance: {fileID: 865480104}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &865480113 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5658952493147688289, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
+  m_PrefabInstance: {fileID: 865480104}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e204969ab5d5f7f4eb4b0908e4f2a684, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &877665465
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -999,12 +1144,40 @@ PrefabInstance:
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
       propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 735877514}
     - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 877665474}
+    - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
       propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PlayHitSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ChangeObjectColor
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: ObjectColorChanger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
@@ -1013,6 +1186,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4338665685486083237, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
   m_PrefabInstance: {fileID: 877665465}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &877665474 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5658952493147688289, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
+  m_PrefabInstance: {fileID: 877665465}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e204969ab5d5f7f4eb4b0908e4f2a684, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &917085353
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1093,12 +1277,44 @@ PrefabInstance:
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
       propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 735877514}
+      objectReference: {fileID: 1505997809}
+    - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1505997809}
+    - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
       propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayHitSound
+      value: ChangeObjectColor
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ChangeObjectColor
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ObjectColorChanger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: ObjectColorChanger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
@@ -1321,12 +1537,40 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
       propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 735877514}
     - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1034743085}
+    - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
       propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PlayHitSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ChangeObjectColor
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: ObjectColorChanger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
@@ -1335,6 +1579,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4338665685486083237, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
   m_PrefabInstance: {fileID: 1034743083}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1034743085 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5658952493147688289, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
+  m_PrefabInstance: {fileID: 1034743083}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e204969ab5d5f7f4eb4b0908e4f2a684, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1307578296 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5658952493147688289, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
+  m_PrefabInstance: {fileID: 174084371}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e204969ab5d5f7f4eb4b0908e4f2a684, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1505997809 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5658952493147688289, guid: 77dd7b3915ebacd46855ce5bce6bd72f, type: 3}
+  m_PrefabInstance: {fileID: 917085353}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e204969ab5d5f7f4eb4b0908e4f2a684, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1562852762
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1407,12 +1684,40 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
       propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 735877514}
     - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1622571823}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
       propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PlayHitSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ChangeObjectColor
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: ObjectColorChanger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
@@ -1421,6 +1726,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4338665685486083237, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
   m_PrefabInstance: {fileID: 1562852762}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1622571823 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5658952493147688289, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+  m_PrefabInstance: {fileID: 1562852762}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e204969ab5d5f7f4eb4b0908e4f2a684, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1647141757
 GameObject:
   m_ObjectHideFlags: 0
@@ -1869,12 +2185,40 @@ PrefabInstance:
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
       propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 735877514}
     - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2045202028}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
       propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PlayHitSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ChangeObjectColor
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: ObjectColorChanger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
@@ -1943,9 +2287,37 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 735877514}
     - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
       propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 735877514}
+    - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1929517298}
+    - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ChangeObjectColor
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: ObjectColorChanger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719911532311432152, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
+      propertyPath: OnGetHit.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
 --- !u!4 &1893128227 stripped
@@ -1953,6 +2325,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4338665685486083237, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
   m_PrefabInstance: {fileID: 1893128226}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1929517298 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5658952493147688289, guid: 1328cb9423e3641478a2ffce1d894e17, type: 3}
+  m_PrefabInstance: {fileID: 1893128226}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e204969ab5d5f7f4eb4b0908e4f2a684, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2045202028 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5658952493147688289, guid: 98f4281e9dd5aa346938e97991abfe99, type: 3}
+  m_PrefabInstance: {fileID: 1850702509}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e204969ab5d5f7f4eb4b0908e4f2a684, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6546407025309718338
 PrefabInstance:
   m_ObjectHideFlags: 0
